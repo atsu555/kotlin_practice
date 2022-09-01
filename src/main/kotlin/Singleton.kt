@@ -22,10 +22,13 @@ class Otani {
         PlayerPicher.MuscleTraining(name)
         PlayerPicher.ControllTraining("大谷翔平")
     }
+
+
 }
 
 fun main() {
     val otani = Otani()
+
     otani.Training()
 
     println("3回目のコミット")
