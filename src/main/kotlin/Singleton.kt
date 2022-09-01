@@ -27,5 +27,7 @@ class Otani {
 fun main() {
     val otani = Otani()
     otani.Training()
+
+    println("3回目のコミット")
 }
 
