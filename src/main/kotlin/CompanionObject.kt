@@ -6,8 +6,8 @@ class Taiyakiya() {
         val Koshian = "こしあん"
         val Custard = "カスタード"
 
-        fun TubuanYaku() {
-            println("${Tubuan}が焼けました。")
+        fun TubuanYaku(nakami: String = "つぶあん") {
+            println("${nakami}が焼けました。")
         }
         fun KoshianYaku() {
             println("${Koshian}が焼けました。")
